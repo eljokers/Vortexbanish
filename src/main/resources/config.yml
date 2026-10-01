@@ -1,0 +1,9 @@
+# ضع روابط Webhook الجديدة هنا بعد عمل Reset للروابط القديمة.
+# لا تشارك هذا الملف إذا أضفت إليه روابط Webhook حقيقية.
+webhooks:
+  ban: ""
+  mute: ""
+  freeze: ""
+
+messages:
+  prefix: "&8[&bVortexMC&8] "

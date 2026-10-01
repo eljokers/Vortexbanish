@@ -1,0 +1,29 @@
+name: VortexMC-banish
+version: 1.0.0
+main: com.vortexmc.banish.VortexMC
+api-version: '1.20'
+description: VortexMC punishment tools for Purpur 1.20.4
+commands:
+  ban:
+    description: حظر لاعب لمدة محددة أو بشكل دائم
+    usage: /ban <player> <duration|perm> [reason]
+    permission: vortexmc.admin.ban
+  mute:
+    description: كتم لاعب لمدة محددة، أو فك الكتم عند كتابة الاسم فقط
+    usage: /mute <player> [duration] [reason]
+    permission: vortexmc.staff.mute
+  freeze:
+    description: تجميد لاعب لمدة محددة، أو فك التجميد عند كتابة الاسم فقط
+    usage: /freeze <player> [duration] [reason]
+    permission: vortexmc.staff.freeze
+  unban:
+    description: فك حظر لاعب
+    usage: /unban <player>
+    permission: vortexmc.admin.ban
+permissions:
+  vortexmc.admin.ban:
+    default: op
+  vortexmc.staff.mute:
+    default: op
+  vortexmc.staff.freeze:
+    default: op
